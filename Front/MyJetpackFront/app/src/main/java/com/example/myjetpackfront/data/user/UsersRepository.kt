@@ -25,10 +25,7 @@ class NetworkUserRepository(
             )
         }
 
-        return User(
-            name="",
-            tickers=arrayListOf("")
-        )
+        return user
 
     }
 }
